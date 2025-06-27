@@ -1,10 +1,9 @@
-.feedbak {
+.feedbacgit k {
   padding: 32px 0;
   margin: 0 auto;
 }
-.container {
-}
-.fed-title {
+
+.feed-title {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -15,13 +14,13 @@
   height: 86px;
   margin-bottom: 32px;
 }
-.fed-list {
+.feed-list {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
 }
 
-.fed-box {
+.feed-box {
   height: 152px;
   min-width: 280px;
   align-items: start;
@@ -38,7 +37,7 @@
   display: flex;
   fill: #3ac04c;
 }
-.fed-text {
+.feed-text {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -46,7 +45,7 @@
   letter-spacing: 0.01em;
   color: #030a06;
 }
-.fed-name-text {
+.feed-name {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -55,23 +54,23 @@
 }
 
 @media screen and (min-width: 768px) {
-  .feedbak {
+  .feedback {
     padding: 64px 0;
   }
 
-  .fed-list {
+  .feed-list {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 32px 24px;
   }
 
-  .fed-item {
+  .feed-item {
     flex-basis: calc((100% - 24px) / 2);
   }
   .star-list {
     margin-bottom: 24px;
   }
-  .fed-text {
+  .feed-text {
     margin-bottom: 24px;
   }
 }
@@ -81,10 +80,11 @@
     padding: 64px 0;
   }
 
-  .fed-title {
+  .feed-title {
     font-size: 48px;
   }
-  .fed-item {
+
+  .feed-item {
     flex-basis: calc((100% - 72px) / 4);
   }
 }
