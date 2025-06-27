@@ -5,11 +5,11 @@
 }
 
 .header-container {
+  padding-right: 12px;
+  padding-left: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 12px;
-  padding-left: 20px;
 }
 
 .header-logo {
@@ -54,9 +54,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
     padding-right: 16px;
-    padding-left: 32px;
   }
 
   .icon-burger {
@@ -66,12 +64,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    padding-right: 64px;
-    padding-left: 64px;
-  }
-
   .header {
     padding-top: 14px;
     padding-bottom: 14px;
